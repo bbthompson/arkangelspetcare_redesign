@@ -1,0 +1,221 @@
+/* Style rules for body */
+body {
+    color: #24265d;
+}
+
+/* Style rules for navigation */
+
+.navbar-nav a {
+    color: #24265d;
+}
+
+.navbar-brand {
+    color: #24265d;
+}
+
+/* Style rules for buttons */
+
+.btn {
+    background-color: #24265d;
+    color: #fff;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #720e9e;
+    color: white;
+}
+
+/* Style rules for skip to content */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+
+
+.skip:focus {
+    color: #24265d;
+    background-color: #fff;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
+/* Style rules for content */
+
+.text-shadow {
+    font-weight: 700;
+    color: #24265d;
+    text-shadow: 2px 4px 4px #6666b0;
+    font-size: 3em;
+}
+
+.navbar, .card-text {
+    color: #24265d;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.thistle-background {
+    background-color: #E6E6FA;
+}
+
+
+.bullet-text {
+    font-size: 1rem;
+}
+
+/* Style rules for table */
+.table-head-blue {
+    background-color: #24265d;
+    color: #fff;
+}
+
+.table-head {
+    background-color: #5e609e;
+    color: #fff;
+}
+
+
+/* Style rules for footer */
+footer {
+    color:#24265d;
+    background-color: #c2e3f8; 
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer img {
+    padding-top: 2%;
+    width: 30px;
+    height: auto;
+}
+
+a {
+    color: #24265d;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #24265d;
+}
+
+footer p a {
+    color: #24265d;
+    text-decoration: none;
+}
+
+footer img {
+    padding-top: 2%;
+    width: 30px;
+    height: auto;
+}
+
+.card-title, .card-text {
+    color: #24265d;
+}
+
+.pale-gray-background {
+    background-color: #f2f2f2;
+}
+
+div.gfg {
+    margin: 5px;
+    padding: 5px; 
+    width: 400px;
+    height: 1150px; 
+    overflow: auto;
+    text-align: justify;
+    background-color: #fff;
+    border: solid #24265d;
+}
+
+.navy-border {
+    border: solid #24265d;
+}
+
+/* Style rules for links */
+.navy-link p {
+    padding: 0;
+    margin: 0;
+}
+
+.navy-link a {
+    color: #24265d;
+    text-decoration: none;
+}
+
+.navy-link a:hover {
+    text-decoration: underline;
+}
+
+.navy-link:hover {
+    text-decoration: underline;
+}
+
+
+.card-width {
+    max-width: 300px;
+}
+
+
+/* Media Query for viewport mininum width 425 pixels */
+@media screen and (min-width: 425px) {
+    .bullet-text {
+        font-size: 1.25rem;
+    }
+}
+
+/* Media Query for viewport minimum width 768 pixels */
+@media screen and (min-width: 768px) {
+
+    .card-width {
+        max-width: 250px;
+    }
+
+}
+
+/* Media Query for viewport minimum width 900 pixels */
+@media screen and (min-width: 900px) {
+    .card-width {
+        max-width: 300px;
+    }
+}
+
+/* Media Query for viewport minimum width 1100 pixels */
+@media screen and (min-width: 1100px) {
+    .text-shadow {
+        font-size: 4em;
+    }
+}
+
+/* Media Query for viewport minimum width 1750 pixels */
+
+
+@media screen and (min-width: 1750px) {
+
+
+
+
+    .site {
+        max-width: 1750px;
+        margin: 0 auto;
+        background-color: #9293ae; 
+    }
+
+    .pad-large {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+}
+
